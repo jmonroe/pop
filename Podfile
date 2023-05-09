@@ -2,7 +2,7 @@ abstract_target 'Tests' do
   pod 'OCMock', '~> 2.2'
   
   target :'pop-tests-ios' do
-    platform :ios, '6.0'
+    platform :ios, '15.0'
   end
 
   target :'pop-tests-tvos' do
